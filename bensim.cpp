@@ -168,7 +168,7 @@ following for loop is also updated
         cout<<"Sample1\n";
         break;
         case 4:
-        cout<<"Graph\n";
+        cout<<"Euler\n";
         break;
 
 
