@@ -2,16 +2,27 @@
 #include<stdio.h>
 #include<math.h>
 using namespace std;
+/* What this code does ?
+Generates a Bensim Graph based on the given computational complexity and the communicational
+complexity given by the user.
+*/
+/*Things TO-DO :
+1.Add classes such as Graph_Algorithms , Numeric_Algorithms etc as and when the algorithms
+are added and call accordingly to give a mix of the algorithms.
+2.The algorithm selection isn't random. Make it Random.
+3.Define proper computational complexity and communicational complexity of the
+various algorithms
+*/
 
-class Algorithms
+class Matrix_Algorithms
 {
   int Order_Of_Matrix;
 public:
 
-  Algorithms(int x)
+  Algorithms(int x)//Make it such a way that user defines it somewhere else
   {
 
-    Order_Of_Matrix=x;
+    Order_Of_Matrix=x;//The Order_Of_Matrix is obtained.
  }
 
   int k;
@@ -90,11 +101,10 @@ void Display()
 
 int main()
 {
-Algorithms Object_1(3);
+Matrix_Algorithms Object_1(3);
 Object_1.Matrix_Multiplication();
 
-cout<<Object_1.Total_Computational_Complexity[0];
-cout<<"\n\n now it starts \n";
+
 Object_1.Matrix_Inverse();
 Object_1.Sample();
 Object_1.Sample2();
