@@ -19,7 +19,7 @@ class Matrix_Algorithms
   int Order_Of_Matrix;
 public:
 
-  Algorithms(int x)//Make it such a way that user defines it somewhere else
+  Matrix_Algorithms(int x)//Make it such a way that user defines it somewhere else
   {
 
     Order_Of_Matrix=x;//The Order_Of_Matrix is obtained.
