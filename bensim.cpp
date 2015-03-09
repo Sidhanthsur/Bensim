@@ -142,6 +142,7 @@ following for loop is also updated
 
   void Display()
   {
+    cout<<"\n\n GRAPH \n\n";
     for(int i=0;i<k;i++)
     {
       /*******************IMPORTANT**********************
